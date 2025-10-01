@@ -66,14 +66,21 @@
     transform: translate(0px, -20px);
     transition: opacity .3s ease-in-out, transform .3s ease-in-out;
 }
+.image-box{
+    width: 33%;
+    height: auto;
+}
 .box2 {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     padding: 0px;
     margin: 0px;
     height: 200px;
    
+}
+.wtf{
+    display: flex;
 }
 /*:before et :after*/
 .button {
@@ -89,4 +96,9 @@
     opacity: 1;
     transform: translate(0, 20px);
     transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+}
+.icon{
+    width: 20x;
+    height: 20px;
+    object-fit: cover;
 }
